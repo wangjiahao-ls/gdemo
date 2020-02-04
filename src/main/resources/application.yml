@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+
+spring:
+  #视图配置
+  mvc:
+    static-path-pattern: /static/**
+  thymeleaf:
+    suffix: .html
